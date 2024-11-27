@@ -81,6 +81,19 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+a:hover{
+    background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 /*O role serve para indetificar que é uma lista o padrao de assecebilidade  */
 ul[role="list"]{
     list-style: none;
