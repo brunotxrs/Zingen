@@ -11,11 +11,7 @@
         background: var(--surface-color);
         border-radius: 24px;
         position: relative;
-        
-
         border: 1px solid var(--stroke-color);
-        
-
 
         .text {
             height: 250px;
@@ -37,7 +33,7 @@
                 height: 29px;
                 font-weight: var(--fw-bold);
                 line-height: 120%;
-                font-size: --fs-xl;
+                font-size: var(--fs-xl);
                 letter-spacing: -4%;
 
             }
@@ -168,8 +164,205 @@
             left: 35%;
             top: 339.5px;
             position: absolute;
+            filter: drop-shadow(2px 2px 5px #000);
 
         }
 
     }
+}
+
+@media screen and (width >= 48em) {
+
+    #download {
+        width: 100%; 
+        height: 758px;
+        overflow: initial;
+
+       
+        .container {
+            width: 95%;
+            height: 542px;
+            padding: 140px 80px;
+            background: var(--surface-color);
+            border-radius: 24px;
+            position: relative;
+            
+    
+            border: 1px solid var(--stroke-color);
+            
+    
+    
+            .text {
+                width: 640px;
+                height: 166px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+    
+                h1 {
+                    width: 91px;
+                    height: 14px;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 8%;
+                    font-weight: var(--fw-md);
+                    text-align: left;
+                    color: var(--brand-color-primary);
+                    text-transform: uppercase;
+                }
+    
+                h2 {
+                    width: 640px;
+                    height: 58px;
+                    font-weight: var(--fw-bold);
+                    line-height: 120%;
+                    font-size: var(--fs-xl);
+                    letter-spacing: -4%;
+    
+                }
+    
+                p {
+                    width: 640px;
+                    height: 78px;
+                    font-weight: var(--fw-base);
+                    font-size: var(--fs-base);
+                    line-height: 160%;
+                    color: var(--text-color-secondary);
+                    
+                }
+    
+    
+            }
+    
+            .app-store-buttons {
+                width: 353px;
+                height: 56px;
+                position: absolute;
+                left: 80px;
+                top: 346px;
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+    
+                .app-store-button {
+                    width: 100%;
+                    height: 56px;
+                    padding: 8px 12px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 8px;
+                    align-items: center;
+                    border-radius: 8px;
+                    border: 1px solid var(--text-color-secondary);
+                    background-color: var(--background-color);
+    
+    
+                    .img {
+                        background: url(../assets/ic_baseline-apple.svg) no-repeat center;
+                        height: 32px;
+                        width: 32px;
+                    }
+    
+                    div:nth-child(2) {
+                        width: 96px;
+                        height: 34px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 2px;
+    
+                        p {
+                            width: 100px;
+                            height: 12px;
+                            font-weight: var(--fw-md);
+                            font-size: var(--fs-sm);
+                            line-height: 100%;
+                            color: var(--text-color-secondary);
+                            margin: 0;
+                            
+                        }
+    
+                        span {
+                            width: 96px;
+                            height: 20px;
+                            font-weight: var(--fw-md);
+                            font-size: 1.25rem;
+                            line-height: 100%;
+                            color: var(--text-color-primary);
+                            font-family: var(--ff-sans);
+                        }
+                    }
+                    
+                }
+    
+                .play-store-button {
+                    width: 100%;
+                    height: 56px;
+                    padding: 8px 12px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 8px;
+                    align-items: center;
+                    border-radius: 8px;
+                    border: 1px solid var(--text-color-secondary);
+                    background-color: var(--background-color);
+    
+    
+                    .img {
+                        background: url(../assets/ri_google-play-fill.svg) no-repeat center;
+                        height: 32px;
+                        width: 32px;
+                    }
+    
+                    div:nth-child(2) {
+                        width: 114px;
+                        height: 34px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 2px;
+    
+                        p {
+                            width: 100px;
+                            height: 12px;
+                            font-weight: var(--fw-md);
+                            font-size: var(--fs-sm);
+                            line-height: 100%;
+                            color: var(--text-color-secondary);
+                            margin: 0;
+                            
+                        }
+    
+                        span {
+                            width: 100%;
+                            height: 20px;
+                            font-weight: var(--fw-md);
+                            font-size: 1.25rem;
+                            line-height: 100%;
+                            color: var(--text-color-primary);
+                            font-family: var(--ff-sans);
+                        }
+                    }
+    
+                    
+                }
+    
+            }
+            
+    
+            .rapaz-ouvindo {
+                width: 430px;
+                height: 627px;
+                background: url(../assets/rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg\ 1.png) no-repeat center;
+                background-size: cover;
+                left: 728px;
+                top: -87px;
+                position: absolute;
+                filter: drop-shadow(2px 2px 5px #000);
+    
+            }
+    
+        }
+    }
+    
 }
