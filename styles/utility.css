@@ -50,7 +50,7 @@
     display: grid;
 }
 
-@media(width >= 80em){
+@media(width >= 48em){
     .container{
         --max-width: 80rem;
     }

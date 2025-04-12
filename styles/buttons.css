@@ -67,7 +67,7 @@
     }
 }
 
-@media (width >= 80em){
+@media (width >= 48em){
 
     .btn-sm {
         padding: .75rem 1.5rem;

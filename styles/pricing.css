@@ -94,7 +94,7 @@
         }
     }
 
-    @media (width >= 80em){
+    @media (width >= 48em){
         --fs-price: 2.5rem;
 
         & header {
