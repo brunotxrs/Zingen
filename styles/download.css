@@ -1,0 +1,175 @@
+#download {
+    width: 100%;
+    
+    height: 758px;
+    overflow: hidden;
+   
+    .container {
+        width: 90%;
+        height: 662px;
+        padding: 24px;
+        background: var(--surface-color);
+        border-radius: 24px;
+        position: relative;
+        
+
+        border: 1px solid var(--stroke-color);
+        
+
+
+        .text {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            h1 {
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 8%;
+                font-weight: var(--fw-md);
+                text-align: left;
+                color: var(--brand-color-primary);
+                text-transform: uppercase;
+            }
+
+            h2 {
+                height: 29px;
+                font-weight: var(--fw-bold);
+                line-height: 120%;
+                font-size: --fs-xl;
+                letter-spacing: -4%;
+
+            }
+
+            p {
+                height: 175px;
+                font-weight: var(--fw-base);
+                font-size: var(--fs-base);
+                line-height: 160%;
+                color: var(--text-color-secondary);
+                
+            }
+
+
+        }
+
+        .app-store-buttons {
+            width: 178px;
+            height: 127px;
+            position: absolute;
+            left: 24px;
+            top: 295px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .app-store-button {
+                padding: 8px 12px;
+                display: flex;
+                flex-direction: row;
+                gap: 8px;
+                align-items: center;
+                border-radius: 8px;
+                border: 1px solid var(--text-color-secondary);
+                background-color: var(--background-color);
+
+
+                .img {
+                    background: url(../assets/ic_baseline-apple.svg) no-repeat center;
+                    height: 32px;
+                    width: 32px;
+                }
+
+                div:nth-child(2) {
+                    width: 96px;
+                    height: 34px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 2px;
+
+                    p {
+                        font-weight: var(--fw-md);
+                        font-size: var(--fs-sm);
+                        line-height: 100%;
+                        color: var(--text-color-secondary);
+                        margin: 0;
+                        
+                    }
+
+                    span {
+                        width: 96px;
+                        font-weight: var(--fw-md);
+                        font-size: var(--fs-lg);
+                        line-height: 100%;
+                        color: var(--text-color-primary);
+                        font-family: var(--ff-sans);
+                    }
+                }
+                
+            }
+
+            .play-store-button {
+                padding: 8px 12px;
+                display: flex;
+                flex-direction: row;
+                gap: 8px;
+                align-items: center;
+                border-radius: 8px;
+                border: 1px solid var(--text-color-secondary);
+                background-color: var(--background-color);
+
+
+                .img {
+                    background: url(../assets/ri_google-play-fill.svg) no-repeat center;
+                    height: 32px;
+                    width: 32px;
+                }
+
+                div:nth-child(2) {
+                    width: 114px;
+                    height: 34px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 2px;
+
+                    p {
+                        font-weight: var(--fw-md);
+                        font-size: var(--fs-sm);
+                        line-height: 100%;
+                        color: var(--text-color-secondary);
+                        margin: 0;
+                        
+                    }
+
+                    span {
+                        width: 114px;
+                        font-weight: var(--fw-md);
+                        font-size: var(--fs-lg);
+                        line-height: 100%;
+                        color: var(--text-color-primary);
+                        font-family: var(--ff-sans);
+                    }
+                }
+
+                
+            }
+
+        }
+        
+
+        .rapaz-ouvindo {
+            width: 238px;
+            height: 320px;
+            background: url(../assets/rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg\ 1.png) no-repeat center;
+            background-size: cover;
+            left: 35%;
+            top: 339.5px;
+            position: absolute;
+
+        }
+
+    }
+}
