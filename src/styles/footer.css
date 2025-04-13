@@ -206,12 +206,13 @@ footer {
         }
     
         .container-two {
-            
-            height: 100px;
+            height: 24px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: center;
             gap: 24px;
+
     
             .redes {
                 width: 168px;
@@ -278,10 +279,15 @@ footer {
             }
     
             p {
+                height: 24px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
                 font-weight: var(--fw-bas);
                 line-height: var(--fs-xl);
                 color: var(--text-color-secondary);
                 font-size: var(--fs-sm);
+                
             }
         }
     
