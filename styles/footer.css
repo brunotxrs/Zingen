@@ -1,6 +1,8 @@
 footer {
     width: 100%;
+    height: 788px;
     padding: 48px;
+    gap: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +56,85 @@ footer {
 
         }
 
+    }
+
+    .container-two {
+        
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .redes {
+            width: 168px;
+            height: 24px;
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+
+            .social-link:nth-child(1){
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/tiktok.svg) no-repeat center;
+                background-size: contain;
+            }
+
+            .social-link:nth-child(1):hover{
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/tiktok-hover.svg) no-repeat center;
+                background-size: contain;
+            }
+
+            .social-link:nth-child(2){
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/instagram.svg) no-repeat center;
+                background-size: contain;
+            }
+
+            .social-link:nth-child(2):hover{
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/instagram-hover.svg) no-repeat center;
+                background-size: contain;
+            }
+
+            .social-link:nth-child(3){
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/twitter.svg) no-repeat center;
+                background-size: contain;
+            }
+            .social-link:nth-child(3):hover{
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/twitter-hover.svg) no-repeat center;
+                background-size: contain;
+            }
+
+            .social-link:nth-child(4){
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/discord.svg) no-repeat center;
+                background-size: contain;
+            }
+            .social-link:nth-child(4):hover{
+                width: 24px;
+                height: 24px;
+                background: url(../assets/icons/discord-hover.svg) no-repeat center;
+                background-size: contain;
+            }
+
+
+        }
+
+        p {
+            font-weight: var(--fw-bas);
+            line-height: var(--fs-xl);
+            color: var(--text-color-secondary);
+            font-size: var(--fs-sm);
+        }
     }
 
     
